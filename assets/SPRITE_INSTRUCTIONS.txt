@@ -1,0 +1,24 @@
+MAX TRON - Custom Bike Sprite Instructions
+
+To use custom pixel art bikes in the game:
+
+1. Save your cyan bike image as: bike_cyan.png (in this assets folder)
+2. Save your orange bike image as: bike_orange.png (in this assets folder)
+
+IMPORTANT:
+- Both bikes should be facing RIGHT (→) as the base orientation
+- Use PNG format with transparent background
+- Recommended size: 40-80 pixels (game will auto-scale)
+- Make the bike roughly square for best rotation results
+
+The game will automatically:
+✓ Load your sprites
+✓ Rotate them for all 4 directions
+✓ Add neon glow effects
+✓ Scale them to fit the grid
+
+If these files aren't found, the game will use the built-in drawn bikes.
+
+Example file paths:
+/Users/bobaker/max_tron/assets/bike_cyan.png
+/Users/bobaker/max_tron/assets/bike_orange.png
