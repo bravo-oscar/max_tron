@@ -13,7 +13,7 @@ python3 --version
 ### Step 2: Install the game
 Open Terminal and go to the game folder:
 ```bash
-cd /Users/bobaker/max_tron
+cd /*download-location*/max_tron
 ```
 
 Install the required game library (Pygame):
